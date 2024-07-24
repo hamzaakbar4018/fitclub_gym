@@ -1,0 +1,17 @@
+.main{
+     /* Example width */
+    height: 350px; /* Example height */
+    display: flex; /* Ensures that the flex container properties are applied */
+    gap: 6px; /* Space between child elements */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    background-image: url("./card1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+.clr{
+    background-color: rgba(229, 34, 34, 0.8);
+}

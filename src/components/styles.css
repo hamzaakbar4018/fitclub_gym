@@ -1,0 +1,76 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    width: 80%;
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
+/* Custom styles for Swiper pagination dots */
+.swiper-pagination-bullet {
+    background-color: #E52222;
+    width: 14px; /* Increased width for the dots */
+  height: 14px; /* Increased height for the dots */
+  margin: 0 5px; /* Adjust horizontal space between dots */ /* Change to your desired inactive dot color */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #E52222; /* Change to your desired active dot color */
+  }
+  
+  /* Additional custom styles for better visibility */
+  .swiper-pagination {
+    bottom: 30px !important;
+    size: 4%; /* Adjust position of pagination if needed */
+  }
+  
+  /* Add this to ensure the pagination dots are positioned correctly */
+  .mySwiper .swiper-pagination-bullets {
+    display: flex;
+    justify-content: center;
+  }
+    
