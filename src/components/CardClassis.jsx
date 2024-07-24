@@ -10,8 +10,8 @@ const CardClassis = ({ picture, money, title, time, details }) => {
         <h2 className='text-[#E52222] mt-4'>{money}</h2>
         <h1 className='text-white text-center md:text-3xl font-bold italic'>{title}</h1>
         <hr className='w-full border-t border-gray-500' />
-        <p className='text-gray-600'>{time}</p>
-        <hr className='w-full border-t border-gray-500' />
+        <p className='text-gray-600 md:mb-0 mb-4'>{time}</p>
+        <hr className='w-full hidden md:block border-t border-gray-500' />
         <p className='hidden md:block text-center text-[8px] md:text-[15px] p-3'>{details}</p>
       </div>
     </div>
