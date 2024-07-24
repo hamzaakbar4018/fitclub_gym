@@ -35,11 +35,11 @@ const Success = () => {
                 className="mySwiper"
             >
                 <SwiperSlide className='md:w-[30%] mb-20 mx-10 mt-10 h-[30%]  md:h-[50%]'>
-                    <div className='bg-gray-900 flex flex-col h:[10%] justify-center items-center'>
+                    <div className='bg-gray-900 w-full flex flex-col h:[10%] justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src={pic} alt="Success" className='rounded-full md:w-[200px]' />
                         </div>
-                        <h1 className='text-gray-600 text-sm md:text-xl p-4 mb-5'>
+                        <h1 className='text-gray-600 hidden md:block text-sm md:text-xl p-4 mb-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima minus quo accusamus mollitia ipsa.
                         </h1>
                         <h1 className='text-white mb-2 font-bold italic'>NAME</h1>
@@ -47,11 +47,11 @@ const Success = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 flex flex-col justify-center items-center'>
+                    <div className='bg-gray-900 w-full flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src="sucess.png" alt="Success" className='rounded-full w-[200px]' />
                         </div>
-                        <h1 className='text-gray-600 text-sm md:text-xl p-4 mb-5'>
+                        <h1 className='text-gray-600 hidden md:block text-sm md:text-xl p-4 mb-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima minus quo accusamus mollitia ipsa.
                         </h1>
                         <h1 className='text-white mb-2 font-bold italic'>NAME</h1>
@@ -59,11 +59,11 @@ const Success = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900  flex flex-col justify-center items-center'>
+                    <div className='bg-gray-900 w-full  flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src={pic} alt="Success" className='rounded-full w-[200px]' />
                         </div>
-                        <h1 className='text-gray-600 text-sm md:text-xl p-4 mb-5'>
+                        <h1 className='text-gray-600 hidden md:block text-sm md:text-xl p-4 mb-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima minus quo accusamus mollitia ipsa.
                         </h1>
                         <h1 className='text-white mb-2 font-bold italic'>NAME</h1>
@@ -71,11 +71,11 @@ const Success = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 flex flex-col justify-center items-center'>
+                    <div className='bg-gray-900 w-full flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src="/sucess.png" alt="Success" className='rounded-full ' />
                         </div>
-                        <h1 className='text-gray-600 text-sm md:text-xl p-4 mb-5'>
+                        <h1 className='text-gray-600 hidden md:block text-sm md:text-xl p-4 mb-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima minus quo accusamus mollitia ipsa.
                         </h1>
                         <h1 className='text-white mb-2 font-bold italic'>NAME</h1>
@@ -83,11 +83,11 @@ const Success = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900  flex flex-col justify-center items-center'>
+                    <div className='bg-gray-900 w-full  flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src={pic} alt="Success" className='rounded-full w-[200px]' />
                         </div>
-                        <h1 className='text-gray-600 text-sm md:text-xl p-4 mb-5'>
+                        <h1 className='text-gray-600 hidden md:block text-sm md:text-xl p-4 mb-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima minus quo accusamus mollitia ipsa.
                         </h1>
                         <h1 className='text-white mb-2 font-bold italic'>NAME</h1>
@@ -95,11 +95,11 @@ const Success = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 flex flex-col justify-center items-center'>
+                    <div className='bg-gray-900 w-full flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src="/sucess.png" alt="Success" className='rounded-full ' />
                         </div>
-                        <h1 className='text-gray-600 text-sm md:text-xl p-4 mb-5'>
+                        <h1 className='text-gray-600 hidden md:block text-sm md:text-xl p-4 mb-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima minus quo accusamus mollitia ipsa.
                         </h1>
                         <h1 className='text-white mb-2 font-bold italic'>NAME</h1>
@@ -107,11 +107,11 @@ const Success = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900  flex flex-col justify-center items-center'>
+                    <div className='bg-gray-900 w-full  flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src={pic} alt="Success" className='rounded-full w-[200px]' />
                         </div>
-                        <h1 className='text-gray-600 text-sm md:text-xl p-4 mb-5'>
+                        <h1 className='text-gray-600 hidden md:block text-sm md:text-xl p-4 mb-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima minus quo accusamus mollitia ipsa.
                         </h1>
                         <h1 className='text-white mb-2 font-bold italic'>NAME</h1>
@@ -119,11 +119,11 @@ const Success = () => {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 flex flex-col justify-center items-center'>
+                    <div className='bg-gray-900 w-full flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src="/sucess.png" alt="Success" className='rounded-full ' />
                         </div>
-                        <h1 className='text-gray-600 text-sm md:text-xl p-4 mb-5'>
+                        <h1 className='text-gray-600 hidden md:block text-sm md:text-xl p-4 mb-5'>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima minus quo accusamus mollitia ipsa.
                         </h1>
                         <h1 className='text-white mb-2 font-bold italic'>NAME</h1>
