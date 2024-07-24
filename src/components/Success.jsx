@@ -23,7 +23,7 @@ const Success = () => {
             </div>
             <Swiper
                 slidesPerView={2.5} // Show 2 slides fully and part of the 3rd slide
-                spaceBetween={30} // Space between slides
+                spaceBetween={1} // Space between slides
                 pagination={{
                     clickable: true,
                 }}
@@ -34,8 +34,8 @@ const Success = () => {
                 modules={[Pagination, Autoplay]}
                 className="mySwiper"
             >
-                <SwiperSlide className='md:w-[30%] mb-20 mx-10 mt-10 h-[30%]  md:h-[50%]'>
-                    <div className='bg-gray-900 w-full flex flex-col h:[10%] justify-center items-center'>
+                <SwiperSlide className='md:w-[30%] rounded-xl mb-20 mx-10 mt-10 h-[30%]  md:h-[50%]'>
+                    <div className='bg-gray-900 w-full  rounded-lg flex flex-col h:[10%] justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src={pic} alt="Success" className='rounded-full md:w-[200px]' />
                         </div>
@@ -46,8 +46,8 @@ const Success = () => {
                         <h2 className='text-[#E52222] mb-4'>Location</h2>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 w-full flex flex-col justify-center items-center'>
+                <SwiperSlide className='w-[30%] rounded-xl  mb-20 mx-5 mt-10 h-[50%]'>
+                    <div className='bg-gray-900 w-full rounded-lg flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src="sucess.png" alt="Success" className='rounded-full w-[200px]' />
                         </div>
@@ -58,8 +58,8 @@ const Success = () => {
                         <h2 className='text-[#E52222] mb-4'>Location</h2>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 w-full  flex flex-col justify-center items-center'>
+                <SwiperSlide className='w-[30%] rounded-xl  mb-20 mx-5 mt-10 h-[50%]'>
+                    <div className='bg-gray-900 w-full rounded-lg  flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src={pic} alt="Success" className='rounded-full w-[200px]' />
                         </div>
@@ -70,8 +70,8 @@ const Success = () => {
                         <h2 className='text-[#E52222] mb-4'>Location</h2>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 w-full flex flex-col justify-center items-center'>
+                <SwiperSlide className='w-[30%] rounded-xl  mb-20 mx-5 mt-10 h-[50%]'>
+                    <div className='bg-gray-900 w-full rounded-lg flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src="/sucess.png" alt="Success" className='rounded-full ' />
                         </div>
@@ -82,8 +82,8 @@ const Success = () => {
                         <h2 className='text-[#E52222] mb-4'>Location</h2>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 w-full  flex flex-col justify-center items-center'>
+                <SwiperSlide className='w-[30%] rounded-xl  mb-20 mx-5 mt-10 h-[50%]'>
+                    <div className='bg-gray-900 w-full rounded-lg  flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src={pic} alt="Success" className='rounded-full w-[200px]' />
                         </div>
@@ -94,8 +94,8 @@ const Success = () => {
                         <h2 className='text-[#E52222] mb-4'>Location</h2>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 w-full flex flex-col justify-center items-center'>
+                <SwiperSlide className='w-[30%] rounded-xl  mb-20 mx-5 mt-10 h-[50%]'>
+                    <div className='bg-gray-900 w-full rounded-lg flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src="/sucess.png" alt="Success" className='rounded-full ' />
                         </div>
@@ -106,8 +106,8 @@ const Success = () => {
                         <h2 className='text-[#E52222] mb-4'>Location</h2>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 w-full  flex flex-col justify-center items-center'>
+                <SwiperSlide className='w-[30%] rounded-xl  mb-20 mx-5 mt-10 h-[50%]'>
+                    <div className='bg-gray-900 w-full rounded-lg  flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src={pic} alt="Success" className='rounded-full w-[200px]' />
                         </div>
@@ -118,8 +118,8 @@ const Success = () => {
                         <h2 className='text-[#E52222] mb-4'>Location</h2>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className='w-[30%] mb-20 mx-5 mt-10 h-[50%]'>
-                    <div className='bg-gray-900 w-full flex flex-col justify-center items-center'>
+                <SwiperSlide className='w-[30%] rounded-xl  mb-20 mx-5 mt-10 h-[50%]'>
+                    <div className='bg-gray-900 w-full rounded-lg flex flex-col justify-center items-center'>
                         <div className='mt-10 w-[100px] md:w-[150px] mb-7'>
                             <img src="/sucess.png" alt="Success" className='rounded-full ' />
                         </div>
