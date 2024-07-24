@@ -12,7 +12,7 @@ const CardClassis = ({ picture, money, title, time, details }) => {
         <hr className='w-full border-t border-gray-500' />
         <p className='text-gray-600'>{time}</p>
         <hr className='w-full border-t border-gray-500' />
-        <p className='text-center text-[8px] md:text-[15px] p-3'>{details}</p>
+        <p className='hidden md:block text-center text-[8px] md:text-[15px] p-3'>{details}</p>
       </div>
     </div>
   );
