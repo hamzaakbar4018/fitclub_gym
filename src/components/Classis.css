@@ -6,11 +6,17 @@
 .container {
     width: 100vw;
     min-height: 100vh;
-    height: 170vh; 
+    height: 170vh;
     background-image: url(/back.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     opacity: 80%;
     background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 50vh; /* Adjust this value as needed for small devices */
+    }
 }
