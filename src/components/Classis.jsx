@@ -33,7 +33,7 @@ const Classis = () => {
   return (
     <div className='container'>
       <h1 className='text-5xl text-center flex-wrap flex justify-center items-center p-20 font-bold italic text-[#E52222]'>Popular Classis</h1>
-      <div className='flex justify-center flex-wrap'>
+      <div className='flex md:mt-0 mt-10 justify-center flex-wrap'>
         {data.map((item, index) => (
           <CardClassis
             key={index}
